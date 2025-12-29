@@ -28,6 +28,13 @@
     "plugins": [
       "expo-router",
       [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow access to your photos to save your stickers.",
+          "savePhotosPermission": "Allow access to save stickers to your photo gallery."
+        },
+      ],
+      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
